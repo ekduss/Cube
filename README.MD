@@ -76,3 +76,4 @@ db_password: opendatacubepassword
 ### To do
 * jupyterhub notebook이 volume 파일에서도 보일 수 있게 수정
 * leafmap 코드 원복
+* nativeauthenticator 폴더랑 volume 폴더 .gitignore에 넣기
