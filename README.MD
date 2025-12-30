@@ -7,6 +7,9 @@
 ### Init
 ```
 git clone <this_repo>
+cd Cube
+git clone https://github.com/jupyterhub/nativeauthenticator.git
+
 docker compose build
 docker compose up -d
 docker compose exec jupyterhub datacube -v system init
