@@ -10,7 +10,7 @@ services:
     container_name: postgres
     networks:
       - jupyterhub-network
-    # restart: always
+    restart: always
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -h postgres -U postgres"]
       interval: 5s

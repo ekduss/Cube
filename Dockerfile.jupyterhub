@@ -12,7 +12,8 @@ RUN python3 -m pip install --no-cache-dir \
     jupyterlab \
     datacube \
     psycopg2-binary \
-    botocore
+    botocore \
+    odc-ui \
 
 RUN npm cache verify \
     && npm install -g n \
